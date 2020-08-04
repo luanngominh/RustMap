@@ -1,0 +1,10 @@
+name: RustMap workflow
+on: [push]
+
+jobs:
+  build:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run unit test
+        run: echo 'Run some unit test'
